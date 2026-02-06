@@ -8,6 +8,7 @@ phonebook = {
     "Kiarie" : "+254756329764",
     "Mary": "+2541342435879",
     "Stephen" : "+254756323487"
+    
 }
 
 # Showing the entire dictionary
@@ -22,6 +23,12 @@ print('=======================================')
 player = {
     "Name" : "Messi",
     "Age" : 40,
-    "Teams" : ["PSG","Barcelona","Argentina"]
+    "Teams" : ["PSG","Barcelona","Argentina"],
+    "More" : {
+        "children" : 3,
+        "Residence" : "US",
+        "Phone" : (254774542,25475543954,254756385)
+    }
 }
 print(player["Teams"][1])
+print("The second number is:",player["More"]["Phone"][1])
