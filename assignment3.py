@@ -1,3 +1,4 @@
+# Below is a program that calculates the monthly contribution an employee should make to the National Health Insurance Fund as per the grossincome of the recipient.
 grosssalary = int(input("Enter your salary here: "))
 if grosssalary > 0 and grosssalary <= 5999:
     print("Your monthly contribution is Ksh 150.00")
