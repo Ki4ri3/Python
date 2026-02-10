@@ -19,13 +19,19 @@ for county in counties:
     print(county)
 
 print("=======================================")
+search = input("Enter the county to search: ")
+found = False
 
 for county in counties:
-    if county == "Nakuru":
+    if county == search:
+        found = True
+        break
         print("County found")
         break
+if found:
+    print(search,"County is available")
 else:
-    print("County not found")
+    print(search, "County not found on the list")
 
 print("=======================================")
 # The for loop can also be used to iterate through a dictionary
